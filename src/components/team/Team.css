@@ -1,0 +1,13 @@
+.team .team_cols {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 32rem);
+    justify-content: center;
+    gap: 2rem;
+  }
+  .team .team_cols .col {
+    text-align: center;
+  }
+  
+  .team .team_cols .col img {
+    margin-bottom: 1rem;
+  }

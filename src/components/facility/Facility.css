@@ -1,0 +1,10 @@
+.facility .facility_cols {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+    gap: 2rem;
+  }
+  
+  .facility .facility_cols .col {
+    text-align: center;
+  }
+  

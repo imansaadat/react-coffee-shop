@@ -1,0 +1,10 @@
+.menu .menu_cols {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 29rem);
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .menu .menu_cols .col {
+    text-align: center;
+  }

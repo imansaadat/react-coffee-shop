@@ -1,0 +1,29 @@
+.gallery .gallery_cols {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 32rem);
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .gallery .gallery_cols .col {
+    position: relative;
+  }
+  
+  .gallery .gallery_cols .col::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+  }
+  
+  .gallery .gallery_cols .col:hover::after {
+    height: 0;
+  }
+  .gallery .gallery_cols .col img {
+    height: 100%;
+    object-fit: cover;
+  }

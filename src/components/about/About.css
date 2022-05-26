@@ -1,0 +1,25 @@
+.about .about_container .about_content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+  }
+  
+  .about .about_content .about_description {
+    padding: 1.5rem 0;
+  }
+  
+  .about .about_content .about_image {
+    flex: 1 1 40rem;
+  }
+  
+  .about .about_content .about_data {
+    flex: 1 1 40rem;
+  }
+
+  @media (max-width: 991px) {
+   
+    .about_container {
+      text-align: center;
+    }
+  }

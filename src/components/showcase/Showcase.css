@@ -1,0 +1,29 @@
+.showcase {
+    background: linear-gradient(85deg, var(--white-color), transparent 65%),
+      url(../../assets/home-bg.jpg) no-repeat center/cover;
+    padding: 6rem 0;
+  }
+  
+  .showcase .showcase_container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  .showcase .showcase_container .showcase_content {
+    max-width: 60rem;
+  }
+  
+  .showcase .showcase_content .showcase_description {
+    color: var(--black-color);
+    padding: 1.5rem 0;
+  }
+
+  @media (max-width: 991px) {
+    .showcase {
+      background-position: left;
+    }
+    .showcase_container{
+        text-align: center;
+    }
+  }
