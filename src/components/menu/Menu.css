@@ -1,10 +1,10 @@
-.menu .menu_cols {
+.menu .menu_items {
     display: grid;
     grid-template-columns: repeat(auto-fit, 29rem);
     justify-content: center;
     gap: 2rem;
   }
   
-  .menu .menu_cols .col {
+  .menu .menu_items .item {
     text-align: center;
   }
