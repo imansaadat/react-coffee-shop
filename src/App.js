@@ -1,7 +1,6 @@
 import Navbar from "./components/navbar/Navbar";
 import Showcase from "./components/showcase/Showcase";
 import About from "./components/about/About";
-import {FacilityData} from './components/facility/data'
 import {MenuData} from './components/menu/data'
 import Facility from "./components/facility/Facility";
 import Menu from "./components/menu/Menu";
@@ -16,7 +15,7 @@ function App() {
       <Navbar />
       <Showcase/>
       <About />
-      <Facility data={FacilityData}/>
+      <Facility />
       <Menu data={MenuData}/>
       <Gallery />
       <Team />

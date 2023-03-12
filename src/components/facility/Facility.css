@@ -1,10 +1,10 @@
-.facility .facility_cols {
+.facility .facility__cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
     gap: 2rem;
   }
   
-  .facility .facility_cols .col {
+  .facility .facility__cards .facility__card {
     text-align: center;
   }
   
