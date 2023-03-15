@@ -1,6 +1,6 @@
 import React from 'react'
 
-const TeamInfo = ({ img, name, alt }) => {
+const TeamItem = ({item:{img,name,alt}}) => {
     return (
         <div className="col">
             <img src={img} alt={alt} />
@@ -9,4 +9,4 @@ const TeamInfo = ({ img, name, alt }) => {
     )
 }
 
-export default TeamInfo
+export default TeamItem
