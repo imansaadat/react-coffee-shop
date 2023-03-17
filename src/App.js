@@ -7,19 +7,18 @@ import Gallery from "./components/gallery/Gallery";
 import Team from "./components/team/Team";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
-import {FooterData} from "./components/footer/data";
 function App() {
   return (
     <>
       <Navbar />
-      <Showcase/>
+      <Showcase />
       <About />
       <Facility />
       <Menu />
       <Gallery />
       <Team />
       <Contact />
-      <Footer data={FooterData} />
+      <Footer />
     </>
   );
 }
