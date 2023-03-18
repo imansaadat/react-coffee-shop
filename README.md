@@ -1,3 +1,5 @@
+# Responsive coffee Shop website with React Js
+![Responsive coffee Shop website with React Js](./src/assets/design.png)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
